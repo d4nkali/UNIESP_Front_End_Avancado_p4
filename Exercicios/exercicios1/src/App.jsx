@@ -10,8 +10,10 @@ function App() {
 
         <>
 
-            <h1>Exercícios 1</h1>
+            <h1>Exercícios Aula 1 React</h1>
             <hr />
+
+            <h3>Exercícios 1</h3>
 
             <Adicao num1={2} num2={3}></Adicao>
             <br />
