@@ -1,6 +1,6 @@
 # Exercícios Aula 1 - React
 
-Este projeto contém dois exercícios práticos utilizando React com Vite. O objetivo é criar e importar componentes filhos para o componente pai `App.jsx` para realizar operações matemáticas e exibir uma mensagem.
+Este projeto contém dois exercícios práticos utilizando React com Vite. O objetivo é criar e importar componentes filhos para o componente pai `App.jsx` para realizar operações matemáticas e exibir uma mensagem enviando dados através do *props* para os componentes filhos.
 
 ## Tecnologias Utilizadas
 
@@ -31,10 +31,10 @@ O resultado de num1 operação num2 é: resultado
 **Exemplo de Uso:**
 
 ```jsx
-<Adicao num1={2} num2={3} />
-<Subtracao num1={32} num2={9} />
-<Multiplicacao num1={5} num2={6} />
-<Divisao num1={90} num2={3} />
+<Adicao num1={2} num2={3}></Adicao>
+<Subtracao num1={32} num2={9}></Subtracao>
+<Multiplicacao num1={5} num2={6}></Multiplicacao>
+<Divisao num1={90} num2={3}></Divisao>
 ```
 
 ### **Exercício 2:**
@@ -48,7 +48,7 @@ Preciso estudar NOME-DA-TECNOLOGIA
 **Exemplo de Uso:**
 
 ```jsx
-<PrecisoEstudar nomeDaTecnologia="TypeScript" />
+<PrecisoEstudar nomeDaTecnologia={"TypeScript"}></PrecisoEstudar>
 ```
 
 ## Resultado no Navegador
