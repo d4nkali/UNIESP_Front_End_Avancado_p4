@@ -11,6 +11,50 @@ Este projeto contém dois exercícios práticos utilizando React com Vite. O obj
 - Vite
 - JavaScript (JSX)
 
+## Exercícios  
+
+### **Exercício 1:**
+
+No React, criamos quatro componentes:
+
+- **Adicao.jsx**
+- **Subtracao.jsx**
+- **Multiplicacao.jsx**
+- **Divisao.jsx**
+
+Cada um desses componentes recebe duas propriedades (`num1` e `num2`) e exibe a seguinte frase:
+
+```
+O resultado de num1 operação num2 é: resultado
+```
+
+**Exemplo de Uso:**
+
+```jsx
+<Adicao num1={2} num2={3} />
+<Subtracao num1={32} num2={9} />
+<Multiplicacao num1={5} num2={6} />
+<Divisao num1={90} num2={3} />
+```
+
+### **Exercício 2:**
+
+Criamos um componente chamado `PrecisoEstudar.jsx`, que recebe uma propriedade chamada `nomeDaTecnologia` e exibe a seguinte frase:
+
+```
+Preciso estudar NOME-DA-TECNOLOGIA
+```
+
+**Exemplo de Uso:**
+
+```jsx
+<PrecisoEstudar nomeDaTecnologia="TypeScript" />
+```
+
+## Resultado no Navegador
+
+![Resultado no Navegador](img/resultado.png)
+
 ## Como Rodar o Projeto
 
 1. Clone este repositório:
@@ -69,50 +113,6 @@ exercicios1/
 │  └─ main.jsx
 └─ vite.config.js
 ```
-
-## Exercícios  
-
-### **Exercício 1:**
-
-No React, criamos quatro componentes:
-
-- **Adicao.jsx**
-- **Subtracao.jsx**
-- **Multiplicacao.jsx**
-- **Divisao.jsx**
-
-Cada um desses componentes recebe duas propriedades (`num1` e `num2`) e exibe a seguinte frase:
-
-```
-O resultado de num1 operação num2 é: resultado
-```
-
-**Exemplo de Uso:**
-
-```jsx
-<Adicao num1={2} num2={3} />
-<Subtracao num1={32} num2={9} />
-<Multiplicacao num1={5} num2={6} />
-<Divisao num1={90} num2={3} />
-```
-
-### **Exercício 2:**
-
-Criamos um componente chamado `PrecisoEstudar.jsx`, que recebe uma propriedade chamada `nomeDaTecnologia` e exibe a seguinte frase:
-
-```
-Preciso estudar NOME-DA-TECNOLOGIA
-```
-
-**Exemplo de Uso:**
-
-```jsx
-<PrecisoEstudar nomeDaTecnologia="TypeScript" />
-```
-
-## Resultado no Navegador
-
-![Resultado no Navegador](img/resultado.png)
 
 ## Autor
 
