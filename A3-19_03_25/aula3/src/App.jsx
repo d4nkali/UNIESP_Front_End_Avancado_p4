@@ -1,17 +1,14 @@
-import React from 'react'
+import React from "react";
+import HookContador from "./components/HookContador";
 
 function App() {
+    return (
+        <div>
+            <h1>Exemplo 1</h1>
+            <hr />
+            <HookContador />
+        </div>
+    );
+};
 
-  return (
-
-    <div>
-
-
-
-    </div>
-
-)
-
-}
-
-export default App
+export default App;
