@@ -28,6 +28,10 @@ function App() {
             <h1>Exercício 3</h1>
             <TrabalhandoComImagens />
 
+            <br />
+            <hr />
+            <br />
+
             <h2>Exercício 4</h2>
             <HookContador />
 
