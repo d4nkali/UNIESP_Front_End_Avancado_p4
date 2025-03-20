@@ -4,6 +4,7 @@ import RenderizaBackOuFront from "./components/RenderizaBackOuFront";
 import TrabalhandoComImagens from "./components/TrabalhandoComImagens";
 import HookContador from "./components/HookContador";
 import HookMegaSena from "./components/HookMegaSena";
+import HookQuina from "./components/HookQuina";
 
 function App() {
 
@@ -41,6 +42,13 @@ function App() {
 
             <h2>Exercício 5</h2>
             <HookMegaSena />
+
+            <br />
+            <hr />
+            <br />
+
+            <h2>Exercício 6</h2>
+            <HookQuina />
 
         </div>
 
