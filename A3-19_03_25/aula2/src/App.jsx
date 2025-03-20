@@ -2,6 +2,8 @@ import React from "react";
 import RenderizandoComFuncoes from "./components/RenderizandoComFuncoes";
 import RenderizaBackOuFront from "./components/RenderizaBackOuFront";
 import TrabalhandoComImagens from "./components/TrabalhandoComImagens";
+import HookContador from "./components/HookContador";
+import HookMegaSena from "./components/HookMegaSena";
 
 function App() {
 
@@ -25,6 +27,20 @@ function App() {
 
             <h1>Exercício 3</h1>
             <TrabalhandoComImagens />
+
+            <br />
+            <hr />
+            <br />
+
+            <h2>Exercício 4</h2>
+            <HookContador />
+
+            <br />
+            <hr />
+            <br />
+
+            <h2>Exercício 5</h2>
+            <HookMegaSena />
 
         </div>
 
