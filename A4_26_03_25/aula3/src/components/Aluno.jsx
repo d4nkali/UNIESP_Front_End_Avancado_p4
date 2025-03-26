@@ -4,9 +4,9 @@ const Aluno = ({ nome, email, curso }) => {
 
     return (
         <div>
-            <p>{nome}</p>
-            <p>{email}</p>
-            <p>{curso}</p>
+            <p>Nome: {nome}</p>
+            <p>Email: {email}</p>
+            <p>Curso: {curso}</p>
             <br />
         </div>
     );
