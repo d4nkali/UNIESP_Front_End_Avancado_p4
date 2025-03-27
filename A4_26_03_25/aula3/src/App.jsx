@@ -34,8 +34,8 @@ const App = () => {
             <br />
 
             <h1>Exercício 2</h1>
-            {alunos.map((aluno, index) => (
-                <Aluno key={index} {...aluno} />
+            {alunos.map((aluno) => (
+                <Aluno nome={aluno.nome} email={aluno.curso} curso={aluno.curso}/>
             ))}
 
             <br />
@@ -43,8 +43,8 @@ const App = () => {
             <br />
 
             <h1>Exercício 3</h1>
-            {novoAlunos.map((novoAlunos, index) => (
-                <NovoAluno key={index} {...novoAlunos} />
+            {novoAlunos.map((novoAlunos) => (
+                <NovoAluno  nome={novoAlunos.nome} email={novoAlunos.email} curso={novoAlunos.curso} media={novoAlunos.media} />
             ))}
 
         </>
