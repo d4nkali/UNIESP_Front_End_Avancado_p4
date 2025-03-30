@@ -2,6 +2,7 @@ import React from "react";
 import EstouConseguindoAprenderReact from "./components/EstouConseguindoAprenderReact";
 import Aluno from "./components/Aluno";
 import NovoAluno from "./components/NovoAluno";
+import EstaComSono from "./components/EstaComSono";
 
 const App = () => {
 
@@ -34,6 +35,13 @@ const App = () => {
             <br />
 
             <h1>Exercício 2</h1>
+            <EstaComSono comSono={false} />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 3</h1>
             {alunos.map((aluno) => (
                 <Aluno nome={aluno.nome} email={aluno.curso} curso={aluno.curso}/>
             ))}
@@ -42,7 +50,7 @@ const App = () => {
             <hr />
             <br />
 
-            <h1>Exercício 3</h1>
+            <h1>Exercício 4</h1>
             {novoAlunos.map((novoAlunos) => (
                 <NovoAluno  nome={novoAlunos.nome} email={novoAlunos.email} curso={novoAlunos.curso} media={novoAlunos.media} />
             ))}
