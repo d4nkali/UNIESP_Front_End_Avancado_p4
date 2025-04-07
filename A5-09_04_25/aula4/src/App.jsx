@@ -1,5 +1,6 @@
 import React from "react";
 import EstiloGlobal from "./components/EstiloGlobal";
+import EstiloInline from "./components/EstiloInline";
 
 const App = () => {
     return (
@@ -13,6 +14,9 @@ const App = () => {
             <br />
             <hr />
             <br />
+
+            <h1>Exercicio 2</h1>
+            <EstiloInline />
 
         </>
     );
