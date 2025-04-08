@@ -1,6 +1,7 @@
 import React from "react";
 import EstiloGlobal from "./components/EstiloGlobal";
 import EstiloInline from "./components/EstiloInline";
+import Campanha from "./components/Campanha";
 
 const App = () => {
     return (
@@ -15,8 +16,15 @@ const App = () => {
             <hr />
             <br />
 
-            <h1>Exercicio 2</h1>
+            <h1>Exercício 2</h1>
             <EstiloInline />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 3</h1>
+            <Campanha mes={"Setembro"} />
 
         </>
     );
