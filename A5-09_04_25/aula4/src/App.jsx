@@ -2,6 +2,7 @@ import React from "react";
 import EstiloGlobal from "./components/EstiloGlobal";
 import EstiloInline from "./components/EstiloInline";
 import Campanha from "./components/Campanha";
+import FormularioDeContato from "./components/FormularioDeContato";
 
 const App = () => {
     return (
@@ -25,6 +26,13 @@ const App = () => {
 
             <h1>Exercício 3</h1>
             <Campanha mes={"Setembro"} />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 4</h1>
+            <FormularioDeContato />
 
         </>
     );
