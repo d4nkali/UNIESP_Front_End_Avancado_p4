@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 const url = "http://localhost:3000/alunos";
 
 const ListarAlunos = () => {
+
+    //? Exercício 2 - Trabalhando com requisição GET
+
     const [alunos, setAlunos] = useState([]);
 
     useEffect(() => {
@@ -16,6 +19,37 @@ const ListarAlunos = () => {
 
         fetchData();
     }, []);
+
+    //? Exercício 3 - Trabalhando com requisição POST
+
+        const [nome, setNome] = useState("");
+        const [matricula, setMatricula] = useState("");
+    
+        const handleSubmit = async (e) => {
+            e.preventDefault();
+    
+            const alunoParaAdicionar = {
+                nome: nome,
+                matricula: matricula
+            };
+    
+            const response = await fetch(url, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(alunoParaAdicionar)
+            });
+    
+            const alunoAdicionando = await response.json();
+    
+            setAlunos((alunoAnterior) => [...alunoAnterior, alunoAdicionando]);
+    
+            setNome("");
+            setMatricula("");
+            fetchData();
+
+        };
 
     return (
         <div>
@@ -44,6 +78,31 @@ const ListarAlunos = () => {
                     ))}
                 </tbody>
             </table>
+
+            <br />
+
+            <h3>Adicionar Aluno</h3>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Nome:
+                    <input type="text" name="nome" value={nome} 
+                    onChange={(e) => setNome(e.target.value)} />
+                </label>
+
+                <br />
+
+                <label>
+                    Matricula:
+                    <input type="text" name="matricula" value={matricula} 
+                    onChange={(e) => setMatricula(e.target.value)} />
+                </label>
+
+                <br />
+
+                <input type="submit" value="Salvar" />
+
+            </form>
+
         </div>
     );
 };

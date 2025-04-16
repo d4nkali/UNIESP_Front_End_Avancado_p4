@@ -12,9 +12,9 @@ const App = () => {
             <hr />
             <br />
 
-            <h1>Exercício 2</h1>
+            <h1>Exercício 2 e 3</h1>
             <ListarAlunos />
-        
+
         </>
     );
 };
