@@ -1,4 +1,5 @@
 import React from 'react';
+import ListarAlunos from './components/ListarAlunos';
 
 const App = () => {
     return (
@@ -6,6 +7,13 @@ const App = () => {
         
             <h1>Exercício 1</h1>
             <img src="exercicio-1.png" alt="Exercício 1 no Insomnia" />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 2</h1>
+            <ListarAlunos />
         
         </>
     );
