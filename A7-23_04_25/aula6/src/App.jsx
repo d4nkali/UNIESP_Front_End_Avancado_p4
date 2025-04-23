@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Inicial from './components/Inicial';
-import Lgpd from './components/Lgpd';
-import Noticias from './components/Noticias';
+import Inicial from './pages/Inicial';
+import Lgpd from './pages/Lgpd';
+import Noticias from './pages/Noticias';
 import DetalhesNoticias from './components/DetalhesNoticias';
 
 const App = () => {
