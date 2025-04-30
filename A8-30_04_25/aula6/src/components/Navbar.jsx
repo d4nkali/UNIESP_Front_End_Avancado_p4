@@ -9,6 +9,7 @@ const Navbar = () => {
             <Link to={"/"}>Inicial</Link>
             <Link to={"/lgpd"}>LGPD</Link>
             <Link to={"/noticias"}>Noticias</Link>
+            <Link to={"/noticias-axios"}>Noticias Pelo Axios</Link>
         </nav>
 
     );

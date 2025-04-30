@@ -5,6 +5,7 @@ import Inicial from './pages/Inicial';
 import Lgpd from './pages/Lgpd';
 import Noticias from './pages/Noticias';
 import DetalhesNoticias from './components/DetalhesNoticias';
+import NoticiasAxios from './pages/NoticiasAxios';
 
 const App = () => {
 
@@ -15,7 +16,7 @@ const App = () => {
             <h1>Continuação da Aula 6</h1>
             <hr />
 
-            <h3>Exercício 1, 2 e 3</h3>
+            <h3>Exercícios 1, 2, 3 e 4</h3>
             <Navbar />
             <Routes>
 
@@ -23,6 +24,7 @@ const App = () => {
                 <Route path='/lgpd' element={<Lgpd />} />
                 <Route path='/noticias' element={<Noticias />} />
                 <Route path='/detalhes-da-noticias/:id' element={<DetalhesNoticias />} />
+                <Route path='/noticias-axios' element={<NoticiasAxios />} />
 
             </Routes>
             </BrowserRouter> </>
